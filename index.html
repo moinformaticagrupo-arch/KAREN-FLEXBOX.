@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="es"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Práctico 1: maquetado con Flexbox">
+<title>Práctico 1 | Pixel Lab</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head><body>
+<!-- NAV: Flexbox alinea la marca, los enlaces y el botón en una fila. -->
+<header class="header"><div class="container nav">
+<a class="brand" href="#inicio"><b>P</b> PIXEL<span>LAB.</span></a>
+<nav><a href="#inicio">Inicio</a><a href="#servicios">Qué hacemos</a><a href="#proyectos">Proyectos</a></nav>
+<a class="nav-cta" href="#contacto">Hablemos ↗</a>
+</div></header>
+<main>
+<!-- HERO: Flexbox crea dos columnas y centra sus contenidos verticalmente. -->
+<section class="hero" id="inicio"><div class="container hero-grid">
+<div class="hero-copy"><div class="eyebrow"><i></i> LABORATORIO DE IDEAS DIGITALES</div>
+<h1>El diseño<br>mueve al<br><em>mundo.</em></h1>
+<p>Exploramos nuevas formas de comunicar, crear y conectar. Convertimos ideas en experiencias digitales con personalidad.</p>
+<div class="actions"><a class="button" href="#proyectos">Ver proyectos ↗</a><a class="simple-link" href="#servicios">Conocé el estudio ↓</a></div>
+<div class="meta"><span>DISEÑO + TECNOLOGÍA</span><span>01 / 04</span></div></div>
+<div class="visual"><div class="grid"></div><div class="shape blue"></div><div class="shape yellow"></div><div class="shape lilac"></div><div class="sticker">THINK<br>OUTSIDE<br>THE BOX.</div><div class="visual-caption">CREATIVIDAD EN<br>CONSTANTE MOVIMIENTO</div></div>
+</div><div class="stripe"><div class="container stripe-inner"><span>IDEAS QUE INSPIRAN</span><b>✳</b><span>DISEÑO QUE CONECTA</span><b>✳</b><span>TECNOLOGÍA PARA CRECER</span></div></div>
+</section>
+<!-- SERVICIOS: Flexbox organiza tarjetas en una columna; cada tarjeta alinea sus elementos. -->
+<section class="section" id="servicios"><div class="container">
+<div class="section-head"><div><small>01 — QUÉ HACEMOS</small><h2>Ideas claras.<br><em>Grandes resultados.</em></h2></div><p>Un buen proyecto combina creatividad, planificación y herramientas adecuadas.</p></div>
+<div class="service-list">
+<article class="service"><span>01</span><b class="symbol">✳</b><div><h3>Diseño gráfico</h3><p>Identidad visual y piezas que transmiten mensajes con claridad.</p></div><strong>↗</strong></article>
+<article class="service"><span>02</span><b class="symbol">⌘</b><div><h3>Desarrollo web</h3><p>Experiencias digitales modernas, accesibles y adaptables.</p></div><strong>↗</strong></article>
+<article class="service"><span>03</span><b class="symbol">◈</b><div><h3>Contenido creativo</h3><p>Ideas y recursos visuales para comunicar de otra manera.</p></div><strong>↗</strong></article>
+</div></div></section>
+<!-- GALERÍA: Flexbox distribuye imágenes y flex-wrap permite nuevas filas. -->
+<section class="projects section" id="proyectos"><div class="container">
+<div class="section-head"><div><small>02 — SELECCIÓN VISUAL</small><h2>Un mundo de<br><em>posibilidades.</em></h2></div><p>Galería de referencias para demostrar la organización flexible de imágenes y contenidos.</p></div>
+<div class="gallery">
+<article class="photo photo-wide"><img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1200&q=85" alt="Espacio de trabajo creativo"><div><small>01 / ESPACIOS</small><h3>Un lugar para crear</h3></div></article>
+<article class="photo"><img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=900&q=85" alt="Computadora y herramientas digitales"><div><small>02 / TECNOLOGÍA</small><h3>Ideas digitales</h3></div></article>
+<article class="photo"><img src="https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?auto=format&fit=crop&w=900&q=85" alt="Objetos de inspiración sobre una mesa"><div><small>03 / INSPIRACIÓN</small><h3>Pequeños detalles</h3></div></article>
+</div></div></section>
+<!-- CONTACTO: Flexbox separa el texto del botón y los centra verticalmente. -->
+<section class="contact" id="contacto"><div class="container contact-row"><div><small>03 — PRÓXIMO PASO</small><h2>¿Y si lo hacemos<br><em>realidad?</em></h2></div><a href="mailto:hola@pixellab.com">Empezar un proyecto ↗</a></div></section>
+</main>
+<!-- FOOTER: Flexbox distribuye marca, actividad y año. -->
+<footer><div class="container footer-row"><a class="brand" href="#inicio"><b>P</b> PIXEL<span>LAB.</span></a><p>Práctico 1 · Maquetando con Flexbox</p><span>Proyecto educativo · 2026</span></div></footer>
+<script src="app.js"></script></body></html>
